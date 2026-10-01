@@ -1,0 +1,17 @@
+[project]
+name = "dulce-tentacion"
+version = "1.0.0"
+description = "Punto de venta de postres Dulce Tentación"
+requires-python = ">=3.10"
+dependencies = [
+    "flet==0.28.3",
+]
+
+[tool.flet]
+org = "com.dulcetentacion"
+product = "Dulce Tentación"
+company = "Dulce Tentación"
+copyright = "Copyright (C) 2026 Dulce Tentación"
+
+[tool.flet.app]
+path = "src"
